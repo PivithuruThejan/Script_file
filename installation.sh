@@ -1,9 +1,9 @@
 #! /bin/bash
 sudo yum update -y
-echo "System updated!" >> /home/ec2-user/OADA.log
+echo "System updated!" >> /home/azureuser/OADA.log
 
 sudo yum install git -y 
-echo "Git Installed!" >> /home/ec2-user/OADA.log
+echo "Git Installed!" >> /home/azureuser/OADA.log
 
 # curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 # sudo yum -y install nodejs
